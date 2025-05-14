@@ -55,5 +55,5 @@ After cloning the repository, run `./install-hooks.sh` to add the render on comm
 ## Acknowledgements
 
 - Glyn Hudson and Trystan Lea @ OpenEnergyMonitor
-- Gorden Davidson @ OpenEnergyMonitor Forums
+- Gordon Davidson @ OpenEnergyMonitor Forums
 
