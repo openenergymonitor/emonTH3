@@ -3,4 +3,5 @@
   (lib (name "hdc2010")(type "KiCad")(uri "${KIPRJMOD}/footprints/hdc2010.pretty")(options "")(descr "TI HDC2010 sensor"))
   (lib (name "bh321")(type "KiCad")(uri "${KIPRJMOD}/footprints/bh321.pretty")(options "")(descr ""))
   (lib (name "ant-433")(type "KiCad")(uri "${KIPRJMOD}/footprints/ant-433.pretty")(options "")(descr ""))
+  (lib (name "graphics")(type "KiCad")(uri "${KIPRJMOD}/footprints/graphics.pretty")(options "")(descr ""))
 )
