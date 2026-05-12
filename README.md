@@ -4,6 +4,9 @@
 
 The _Energy Monitor Temperature Humidity 3_ (emonTH3) is an ultra low power temperature and humidity monitoring node with support for pulse counting and additional external sensors.
 
+![image](emonTH.png)
+
+
 It is an update to the [OpenEnergyMonitor](https://openenergymonitor.org) [emonTH2](https://docs.openenergymonitor.org/emonth2/index.html) with the following goals:
 
 - Increase the battery life from the current ~4 years on 2xAA
