@@ -6031,12 +6031,6 @@
 		(uuid "07fadb0b-90db-4eee-a84c-29973975d581")
 	)
 	(junction
-		(at 285.75 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "143579e5-7c41-476c-a99f-432477dd6ea7")
-	)
-	(junction
 		(at 59.69 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6928,16 +6922,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 52.07) (xy 285.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b83881-45bd-4050-906b-b7611614dfc2")
-	)
-	(wire
-		(pts
 			(xy 100.33 69.85) (xy 119.38 69.85)
 		)
 		(stroke
@@ -7788,16 +7772,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 52.07) (xy 285.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b44e2ffb-ef69-4877-9356-5aac6773ff52")
-	)
-	(wire
-		(pts
 			(xy 208.28 40.64) (xy 208.28 44.45)
 		)
 		(stroke
@@ -7805,16 +7779,6 @@
 			(type default)
 		)
 		(uuid "b49f12af-36e6-4195-a995-a74339f1df30")
-	)
-	(wire
-		(pts
-			(xy 285.75 62.23) (xy 285.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e6b563-085c-4e0f-8032-2313337e1c59")
 	)
 	(wire
 		(pts
@@ -7858,7 +7822,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 52.07) (xy 289.56 52.07)
+			(xy 259.08 52.07) (xy 289.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9543,84 +9507,6 @@
 			(project "emonTH"
 				(path "/56a56f81-6e39-404e-b550-b2264f708cf5"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 285.75 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0ff6c23f-1ee9-4bdf-a9ae-c3012956054a")
-		(property "Reference" "C10"
-			(at 289.56 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.6p"
-			(at 289.56 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 286.7152 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PN" "C76976"
-			(at 285.75 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "172f79cd-d5dd-4208-81eb-4f28ec3bd21f")
-		)
-		(pin "2"
-			(uuid "99370ff2-3129-4692-9d40-275aa6baea04")
-		)
-		(instances
-			(project "emonTH"
-				(path "/56a56f81-6e39-404e-b550-b2264f708cf5"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12306,71 +12192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 285.75 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "702528e0-b210-473d-8418-4068a78172b1")
-		(property "Reference" "#PWR012"
-			(at 285.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 285.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f64e3f4-1c72-437a-871d-b63c9acf71f7")
-		)
-		(instances
-			(project "emonTH"
-				(path "/56a56f81-6e39-404e-b550-b2264f708cf5"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 73.66 130.81 0)
 		(unit 1)
@@ -12961,7 +12782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6p"
+		(property "Value" "10p"
 			(at 303.53 60.325 0)
 			(effects
 				(font
@@ -12996,7 +12817,34 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C76976"
+		(property "LCSC PN" ""
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT1555C1H100FA02D"
+			(at 299.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRT1555C1H100FA2D"
 			(at 299.72 58.42 0)
 			(effects
 				(font
@@ -14569,7 +14417,7 @@
 				)
 			)
 		)
-		(property "Value" "27n"
+		(property "Value" "15n"
 			(at 293.37 50.8 90)
 			(effects
 				(font
@@ -14603,7 +14451,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C12669"
+		(property "LCSC PN" ""
 			(at 293.37 52.07 90)
 			(effects
 				(font
@@ -14621,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LQG15HS27NJ02D"
+		(property "MPN" "LQG15HS15NJ02D "
 			(at 293.37 52.07 90)
 			(effects
 				(font
@@ -14630,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-LQG15HS27NJ02D"
+		(property "Mouser" "81-LQG15HS15NJ02D"
 			(at 293.37 52.07 90)
 			(effects
 				(font

@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|122205000|82005000|6609ff75-8845-458d-b163-2363d8c993d2|dc8df946-114f-48c0-8232-c0b25e56fa2a",
+          "5 and 6 pins available here."
+        ]
+      ],
       "meta": {
         "version": 2
       },
