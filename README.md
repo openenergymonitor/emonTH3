@@ -17,7 +17,7 @@ It is an update to the [OpenEnergyMonitor](https://openenergymonitor.org) [emonT
 - TI HDC2010 Low-Power Humidity and Temperature Digital Sensors
 - Sensirion SEK-STCC4 Co2 sensor (optional)
 
-It should be used with the [emonTH-fw](https://github.com/awjlogan/emonTH-fw) firmware.
+It should be used with the [emonTH-fw](https://github.com/openenergymonitor/emonTH-fw) firmware.
 
 ## Getting started
 
@@ -30,7 +30,7 @@ The board is designed using [KiCAD](https://www.kicad.org) version 9. The schema
 
 These can be reported:
 
-- as a [GitHub issue](https://github.com/awjlogan/emonTH3/issues)
+- as a [GitHub issue](https://github.com/openenergymonitor/emonTH3/issues)
 - on the [OpenEnergyMonitor forums](https://community.openenergymonitor.org/)
 
 ## Contributing
